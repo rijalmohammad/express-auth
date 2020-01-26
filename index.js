@@ -14,6 +14,7 @@ app.use(bodyParser.json());
 app.use("/user", user);
 
 app.get('/', (req, res) => {
+    console.log('hello');
     res.json({message: "API Working"});
 });
 
