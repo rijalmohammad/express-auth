@@ -16,6 +16,8 @@ app.use("/user", user);
 app.get('/', (req, res) => {
     console.log('hello');
     console.log("rijal");
+    console.log("andi");
+    console.log("muti");
     res.json({message: "API Working"});
 });
 
